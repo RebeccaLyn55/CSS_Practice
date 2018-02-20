@@ -1,0 +1,14 @@
+/*Universal Selector for reset (Selects each and every element*/
+/*Box Model: Borders and Padding no longer added to total width/height*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    // This defines what 1rem is
+    font-size: 62.5%;
+}
